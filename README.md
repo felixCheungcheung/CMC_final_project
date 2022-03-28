@@ -11,3 +11,4 @@ If you don't want to train the network, you can skip the training block. Instead
   # checkpoint = torch.torch.load("CMC_final_project/model/best_model_1000epoch_8_beat.pyt",map_location=device)
   # model.load_state_dict(checkpoint['model_state_dict'])
 ```
+## [Demo & Presentation SLides](https://docs.google.com/presentation/d/1cr9diuP46ICYP4gxFeWCh6iDurWOo7xukD--vPwBsYM/edit?usp=sharing)
