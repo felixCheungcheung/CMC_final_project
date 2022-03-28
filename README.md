@@ -11,4 +11,14 @@ If you don't want to train the network, you can skip the training block. Instead
   # checkpoint = torch.torch.load("CMC_final_project/model/best_model_1000epoch_8_beat.pyt",map_location=device)
   # model.load_state_dict(checkpoint['model_state_dict'])
 ```
+## Run the code block below extra times to get more result. 
+```
+# Evaluation
+with torch.no_grad():
+  wish_len = int(input("Enter the length of music that you want to generate(multiple number of expect_len (4) ):")) 
+  generate_len = int(wish_len/ expect_len)
+  z = torch.randn(generate_len, z_dim).to(device)
+  out = model.decode(z).reshape(z.shape[0],fixed_len,n_pitches)
+```
+
 ## [Demo & Presentation SLides](https://docs.google.com/presentation/d/1cr9diuP46ICYP4gxFeWCh6iDurWOo7xukD--vPwBsYM/edit?usp=sharing)
