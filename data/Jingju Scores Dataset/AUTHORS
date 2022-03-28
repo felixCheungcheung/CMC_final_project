@@ -1,0 +1,17 @@
+Rafael Caro Repetto (rafael.caro@upf.edu)
+  Creation of scores using MuseScore
+  Metadata and annotations in the scores_data.csv file
+  Metadata and annotations in the lines_data.csv file
+
+Rong Gong (rong.gong@upf.edu)
+  Creation of scores using MuseScore
+  Metadata and annotations in the scores_data.csv file
+  Metadata and annotations in the lines_data.csv file
+
+Tiange Zhu (tiange.zhu@upf.edu)
+  Completion of scores using MuseScore
+  Metadata and annotations in the scores_data.csv file
+  Metadata and annotations in the lines_data.csv file
+
+Shuo Zhang (zangsir@gmail.com)
+  Automatic computation of the linguistic tones for the lines_data.csv file using Native-to-Pinyin (https://github.com/zangsir/Native-to-Pinyin)
