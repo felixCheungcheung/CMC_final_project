@@ -1,5 +1,5 @@
 # CMC_final_project: Jingju Style Music generation with Feedforward Variational AutoEncoder
-### Technicalities: 
+### Technical features: 
 1. Dataset: JingjuMusicScoresCollection-v3
 2. Pianoroll representation with limited pitch range
 3. Beat as the basic unit of Input: retrieve a fixed length of training samples, hopsize = one beat
@@ -18,7 +18,7 @@ If you don't want to train the network, you can skip the training block. Instead
   # checkpoint = torch.torch.load("CMC_final_project/model/best_model_1000epoch_8_beat.pyt",map_location=device)
   # model.load_state_dict(checkpoint['model_state_dict'])
 ```
-### Run the code block below extra times to get more result. 
+### Run the code block below several times to get more result. 
 ```
 # Evaluation
 with torch.no_grad():
